@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div id="content flex flex-col">
+    <div class="p-4 w-full border-b text-xl font-bold">
+        <span>主页</span>
+    </div>
+
+    {{- $paginator := .Paginate (where (where .Site.RegularPages "Type" "post") ".Params.hiddenfromhomepage" "!="
+    true) }}
+    {{- range $paginator.Pages -}}
+    <div>
+        {{ partial "card.html" .}}
+    </div>
+
+    {{ end -}}
+</div>
+{{- end -}}
