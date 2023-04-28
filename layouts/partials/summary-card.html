@@ -2,7 +2,9 @@
     <a href="{{ .RelPermalink }}">
         <div class="pr-3">
             {{ $avatar := resources.Get "images/avatar.jpg" }}
-            <image src="{{ $avatar.Permalink }}" class="w-12 h-12 rounded-full" />
+            <a href="/about">
+                <image src="{{ $avatar.Permalink }}" class="w-12 h-12 rounded-full" />
+            </a>
         </div>
     </a>
     <a href="{{ .RelPermalink }}">
