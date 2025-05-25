@@ -3,9 +3,9 @@
 
 name = "Doge"
 license = "MIT"
-licenselink = "https://github.com/STRRL/hugo-theme-doge/blob/master/LICENSE"
+licenselink = "https://github.com/togo13duke/hugo-theme-doge/blob/master/LICENSE"
 description = ""
-homepage = "https://github.com/STRRL/hugo-theme-doge"
+homepage = "https://github.com/togo13duke/hugo-theme-doge"
 tags = []
 features = []
 min_version = "0.41.0"
